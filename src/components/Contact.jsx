@@ -40,10 +40,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_hwek14e",
-        "template_hbk0n7c",
+        "service_id",
+        "template_id",
         formRef.current,
-        "7rd1SD2rJaQPJ1BTU" // Используем идентификатор пользователя
+        "user_id"
       )
       .then(
         (result) => {
